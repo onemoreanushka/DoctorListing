@@ -5,8 +5,7 @@ const FilterPanel = ({
   setConsultationType,
   selectedSpecialties,
   setSelectedSpecialties,
-  sortOrder,
-  setSortOrder
+
 }) => {
   const handleSpecialtyChange = (specialty) => {
     setSelectedSpecialties((prev) =>
